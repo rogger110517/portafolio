@@ -43,7 +43,9 @@ import {
 } from './About.styles';
 
 const SKILLS = [
-  { name: 'WordPress / Gutenberg', percent: 90 },
+  { name: 'WordPress Developer', percent: 92 },
+  { name: 'Gutenberg / Block Editor', percent: 90 },
+  { name: 'Elementor / WPBakery', percent: 88 },
   { name: 'HTML / CSS / Sass', percent: 88 },
   { name: 'PHP / ACF / Plugins', percent: 82 },
   { name: 'JavaScript / TypeScript', percent: 78 },
@@ -162,14 +164,11 @@ export const About: React.FC = () => {
               (Azure certificado · GCP en aprendizaje).
             </AboutText>
 
-            {/* Signature block */}
             <SignatureBox>
               <SignatureName>
                 <h2>Rogger Palomino</h2>
-                <p>Frontend &amp; Web Developer</p>
+                <p>WordPress &amp; Frontend Developer</p>
               </SignatureName>
-              {/* User copies signature.png into public/images/ */}
-              <img src="/images/signature.png" alt="Signature" style={{ maxHeight: 50, opacity: 0.7 }} />
             </SignatureBox>
 
             {/* Animated skill bars */}
