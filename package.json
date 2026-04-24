@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6",
+    "@fortawesome/free-brands-svg-icons": "^6",
+    "@fortawesome/free-regular-svg-icons": "^6",
+    "@fortawesome/free-solid-svg-icons": "^6",
+    "@fortawesome/react-fontawesome": "^0.2",
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.73.1",
+    "styled-components": "^6",
+    "swiper": "^11"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/styled-components": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0",
+    "typescript": "^5"
+  }
+}
