@@ -84,28 +84,28 @@ const EDUCATION_DATA: EducationEntry[] = [
   },
   {
     id: 'edu-5',
-    year: '2026',
-    number: '05',
-    location: 'Microsoft',
-    locationColor: 'cyan',
-    title: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
-    description:
-      'Certificación oficial de Microsoft en fundamentos de Cloud. Enero 2026. Credential ID: EB9FD7C55C74FAA5.',
-    side: 'left',
-    certUrl:
-      'https://learn.microsoft.com/en-us/users/roggerpalomino-8388/credentials/eb9fd7c55c74faa5',
-    certLabel: 'Verificar certificado',
-  },
-  {
-    id: 'edu-6',
     year: '2025',
-    number: '06',
+    number: '05',
     location: 'Google',
     locationColor: 'red',
     title: 'Google Cloud Associate Cloud Engineer — En Progreso',
     description:
       'Preparación para la certificación Associate Cloud Engineer de Google Cloud Platform.',
+    side: 'left',
+  },
+  {
+    id: 'edu-6',
+    year: '2026',
+    number: '06',
+    location: 'Microsoft',
+    locationColor: 'cyan',
+    title: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+    description:
+      'Certificación oficial de Microsoft en fundamentos de Cloud. Enero 2026. Credential ID: EB9FD7C55C74FAA5.',
     side: 'right',
+    certUrl:
+      'https://learn.microsoft.com/en-us/users/roggerpalomino-8388/credentials/eb9fd7c55c74faa5',
+    certLabel: 'Verificar certificado',
   },
 ];
 
